@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Consolas;
+}
+
+body {
+    background-color: black;
+}
+
+header{
+    color: black;
+    display: block;
+    height: 11vh;
+    width: 100%;
+    position: fixed;
+    background-color: #FCF6F5;
+    padding-left: 20%;
+    padding-right: 20%;
+    -webkit-box-shadow: 0px 0px 25px 7px rgba(235,226,235,1);
+    -moz-box-shadow: 0px 0px 25px 7px rgba(235,226,235,1);
+    box-shadow: 0px 0px 25px 7px rgba(235,226,235,1);
+}
+
+header div {
+    display: inline-block;
+    height: 4vh;
+    text-align: center;
+}
+
+.brand-name{
+    margin-left: 7%;
+    padding: 2vh;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.brand-name a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.login {
+    margin-left: 3%;
+}
+
+.login-button{
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    background-color: black;
+    color: #FCF6F5;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 1.5vh;
+}
+
+.login-button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #FCF6F5;
+    border: solid black 2px;
+}
+
+.registration {
+    margin-left: 10%;
+}
+
+.registration-button{
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    background-color: black;
+    color: #FCF6F5;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 1.5vh;
+}
+
+.registration-button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #FCF6F5;
+    border: solid black 2px;
+}
+
+.logout {
+    margin-left: 10%;
+}
+
+.logout-button {
+    display: inline-block;
+    width: 110%;
+    background-color: black;
+    color: #FCF6F5;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 1.5vh;
+}
+
+.logout-button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #FCF6F5;
+    border: solid black 2px;
+}
+
+.user-profile-button {
+    display: inline-block;
+    width: 100%;
+    background-color: #FCF6F5;
+    color: black;
+    font-size: 22px;
+    padding: 1.5vh;
+    text-decoration: none;
+}
+
+.user-profile-button:hover {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.empty-top{
+    height: 11vh;
+    background-color: red;
+}
+
+.main-content {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #7f8281;
+}
+
+
+
+
+

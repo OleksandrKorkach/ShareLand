@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Consolas;
+}
+
+body {
+    background-color: black;
+}
+
+.registration-form {
+    width: 30%;
+    height: 75vh;
+    display: inline-block;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.form-element {
+    text-align: center;
+    display: block;
+    margin-top: 15%;
+    width: 60%;
+    height: 5vh;
+    font-size: 20px;
+    margin-left: 20%;
+    border: solid 5px black;
+    border-radius: 10px;
+}
+
+.form-element-button {
+    cursor: pointer;
+    font-size: 20px;
+    height: 6vh;
+    background-color: black;
+    color: white;
+}
+
+.form-element-button:hover {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
